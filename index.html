@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>Pithagoras</title>
+</head>
+<body>
+	
+<div class="triangle">
+	<div class="container">
+		<div class="triangle__inner">
+			<svg height="200" width="200">
+			  <polygon points="180,0 180,200 0,200" style="fill:lime;stroke:purple;stroke-width:1" />
+			</svg>
+			<div class="trial triangle__a"></div>
+			<div class="trial triangle__b"></div>
+			<div class="trial triangle__c"></div>
+		</div>
+	</div>
+</div>
+
+<div class="data">
+	<div class="container">
+
+		<div class="hyp">Hypotenuse: </div>
+		<div class="side">Side: </div>
+
+		<div class="input">
+			<label for="hyp">Hypotenuse:</label>
+			<input type="number" id="hyp" name="" value="">
+
+			<label for="side_1">Side1&ast;</label>
+			<input type="number" id="side_1" name="" value="">
+
+			<label for="side_2">Side2</label>
+			<input type="number" id="side_2" name="" value="">
+
+			<button id="btn">Result</button>
+		</div>
+
+	</div> <!-- container -->
+</div> <!-- data -->
+
+
+<div class="note">
+	<hr class="hr">
+	<p>&ast;</p>
+	<p class="note__text">
+		If you want to find out the second unknown side, fill in this field and a hypotenuse field.
+	</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

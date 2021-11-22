@@ -1,0 +1,95 @@
+html {
+	background-color: #1a3439;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 11rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.data {
+	margin-bottom: 7em;
+}
+
+.triangle {
+	margin-bottom: 30px;
+}
+
+.triangle__inner {
+	position: relative;
+}
+
+.trial {
+	min-width: 100px;
+	overflow: hidden;
+}
+
+.triangle__a,
+.triangle__b,
+.triangle__c {
+	width: 100%;
+	position: absolute;
+}
+
+.triangle__a {
+	top: 50%;
+	right: -60%;
+	transform: rotateZ(270deg);
+}
+
+.triangle__c {
+	top: 39%;
+	right: 5%;
+	transform: rotateZ(312deg);
+}
+
+.hyp {
+	margin-bottom: 10px;
+}
+
+.input {
+	display: flex;
+	align-items: center;
+	flex-direction: column;	
+}
+
+.input label, button {
+	margin-top: 20px;
+}
+
+#btn {
+	width: 100%;
+}
+
+#btn:hover {
+	cursor: pointer;
+}
+
+.note {
+	padding: 0 .5em;
+}
+
+.note__text {
+	text-indent: .5em;
+}
+
+.hr {
+	margin-left: 0;
+	width: 30%;
+}
